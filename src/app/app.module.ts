@@ -7,9 +7,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import {MatInputModule} from '@angular/material/input';
 
+import { CarruselComponent } from './carrusel/carrusel.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CarruselComponent
   ],
   imports: [
     BrowserModule,
