@@ -8,11 +8,13 @@ import { MatSliderModule } from '@angular/material/slider';
 import {MatInputModule} from '@angular/material/input';
 
 import { CarruselComponent } from './carrusel/carrusel.component';
+import { FormularioComponent } from './formulario/formulario.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CarruselComponent
+    CarruselComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,

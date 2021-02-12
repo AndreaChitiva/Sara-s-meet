@@ -3,6 +3,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "include": "**/*.ts",
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
