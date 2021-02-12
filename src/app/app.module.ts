@@ -1,4 +1,4 @@
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -8,16 +8,19 @@ import { MatSliderModule } from '@angular/material/slider';
 import {MatInputModule} from '@angular/material/input';
 import { CardComponent } from './card/card.component';
 import {MatTabsModule} from '@angular/material/tabs';
-
+import {ViewEncapsulation} from '@angular/core';
 import { CarruselComponent } from './carrusel/carrusel.component';
 import { FormularioComponent } from './formulario/formulario.component';
+import {FormsModule} from '@angular/forms';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    CardComponent,
     CarruselComponent,
     FormularioComponent,
-    CardComponent
+    NavComponent
   ],
   imports: [
     BrowserModule,
@@ -25,8 +28,8 @@ import { FormularioComponent } from './formulario/formulario.component';
     MatInputModule,
     MatSliderModule,
     MatTabsModule,
+    FormsModule,
   ],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
   bootstrap: [AppComponent]
 })

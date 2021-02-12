@@ -10,7 +10,7 @@ export class CardComponent implements OnInit {
 
   mensaje = '- Solo por hoy ';
   escondido = true;
-  color = 'red';
+  color = 'purple';
 
   sizes = [{
     name: 'mediano - 175 ml',
